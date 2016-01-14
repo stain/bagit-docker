@@ -29,6 +29,14 @@ and can be mounted as a volume to work with your bags, e.g.:
 
     docker run -v /home/johndoe/Downloads:/data stain/bagit bag verify /data/bag1
 
+## License
+
+License of this `Dockerfile`: [MIT license](https://opensource.org/licenses/MIT)
+(c) 2016 University of Manchester. See [LICENSE](LICENSE) for details.
+
+See also the
+[License of bagit-java](https://github.com/LibraryOfCongress/bagit-java/blob/master/LICENSE.txt)
+
 
 ## Contributions
 
