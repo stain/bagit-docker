@@ -35,7 +35,17 @@ License of this `Dockerfile`: [MIT license](https://opensource.org/licenses/MIT)
 (c) 2016 University of Manchester. See [LICENSE](LICENSE) for details.
 
 See also the
-[License of bagit-java](https://github.com/LibraryOfCongress/bagit-java/blob/master/LICENSE.txt)
+[license of bagit-java](https://github.com/LibraryOfCongress/bagit-java/blob/master/LICENSE.txt).
+
+The alpine image contains software covered by
+[GNU Public License 2.0](http://www.gnu.org/licenses/old-licenses/gpl-2.0) and other
+open source licenses.
+
+This Docker image installs additionally `openjdk`
+(GPL 2.0 with classpath exception),
+GNU `wget` (GPLv3+), GNU `bash` (GPLv3+)
+and Info-Zip `unzip` (BSD-like).
+
 
 
 ## Contributions
