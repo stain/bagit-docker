@@ -10,7 +10,7 @@ env BAGIT_SHA256 7736d00fafe575ea298788a8d697a2af490dd12f856b43cd57bf579a374199e
 RUN mkdir /bagit
 RUN cd /tmp && \
   echo "$BAGIT_SHA256  bagit.zip" > bagit.zip.sha256 && \
-  wget --no-check-certificate -O bagit.zip https://github.com/LibraryOfCongress/bagit-java/releases/download/bagit-$BAGIT_VERSION/bagit-$BAGIT_VERSION-bin.zip && \
+  wget --no-check-certificate -O bagit.zip https://github.com/LibraryOfCongress/bagit-java/releases/download/bagit-$BAGIT_VERSION/bagit-$BAGIT_VERSION.zip && \
   ls -al bagit.zip && \
   md5sum bagit.zip && \
   cat bagit.zip.sha256 && \
