@@ -2,14 +2,9 @@
 
 
 * Docker image: [stain/bagit](https://hub.docker.com/r/stain/bagit/)
-* Base images: [alpine](https://hub.docker.com/r/_/alpine/):3.3
+* Base images: [alpine](https://hub.docker.com/r/_/alpine/):3.18
+* OpenJDK version: 17
 * Source: [Dockerfile](https://github.com/stain/bagit-docker/blob/master/Dockerfile), [bagit-java](https://github.com/LibraryOfCongress/bagit-java)
-
-
-[![Build Status](https://travis-ci.org/stain/bagit-docker.svg)](https://travis-ci.org/stain/bagit-docker)
-
-[![](https://badge.imagelayers.io/stain/bagit:latest.svg)](https://imagelayers.io/?images=stain/bagit:latest 'bagit analysis at imagelayers.io')
-
 
 
 Docker packaging of the [BagIt Library (BIL)](https://github.com/LibraryOfCongress/bagit-java)
@@ -32,7 +27,7 @@ and can be mounted as a volume to work with your bags, e.g.:
 ## License
 
 License of this `Dockerfile`: [MIT license](https://opensource.org/licenses/MIT)
-(c) 2016 University of Manchester. See [LICENSE](LICENSE) for details.
+(c) 2016-202 University of Manchester. See [LICENSE](LICENSE) for details.
 
 See also the
 [license of bagit-java](https://github.com/LibraryOfCongress/bagit-java/blob/master/LICENSE.txt).
