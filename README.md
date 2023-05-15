@@ -8,7 +8,7 @@
 
 
 Docker packaging of the [BagIt Library (BIL)](https://github.com/LibraryOfCongress/bagit-java)
-- a Java library and command line `bag` for working with
+- a Java library and command line `bagit` for working with
 [BagIt](http://tools.ietf.org/html/draft-kunze-bagit) archives.
 
 See the [BagIt Wikipedia page](https://en.wikipedia.org/wiki/BagIt) for more details.
